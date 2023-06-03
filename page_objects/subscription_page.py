@@ -1,8 +1,8 @@
 from selenium.webdriver.common.by import By
 import random
 import time
-from pythonProject.Repository_18.web_ui.base_page import BasePage
-from pythonProject.Repository_18.page_objects.shop_page import ShopPage
+from web_ui.base_page import BasePage
+from page_objects.shop_page import ShopPage
 
 
 class SubscriptionPage(BasePage):
