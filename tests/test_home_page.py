@@ -1,6 +1,6 @@
 import pytest
 import time
-from pythonProject.Repository_18.web_ui.data_generator import random_string, random_phone, random_password, random_zip
+from web_ui.data_generator import random_string, random_phone, random_password, random_zip
 
 """GET STARTED"""
 
