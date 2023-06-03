@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from pythonProject.Repository_18.web_ui.base_page import BasePage
+from web_ui.base_page import BasePage
 
 class RecipiesPage(BasePage):
     __search_recipie_field = (By.XPATH, "//input[@placeholder='Search for fish or type']")
