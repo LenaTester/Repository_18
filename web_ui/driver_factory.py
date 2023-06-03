@@ -11,7 +11,7 @@ class DriverFactory:
     CHROMIUM = 3
 
     @staticmethod
-    def create_driver(driver_id, is_headless):
+    def create_driver(driver_id):
         if DriverFactory.CHROME == driver_id:
             chrome_options = webdriver.ChromeOptions()
             prefs = {
@@ -19,8 +19,7 @@ class DriverFactory:
             }
             chrome_options.add_experimental_option('prefs', prefs)
             chrome_options.add_argument("--lang=en-US")
-            if is_headless:
-                chrome_options.add_argument("--headless")
+            chrome_options.add_argument("--headless")
             driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
 
         elif DriverFactory.FIRE_FOX == driver_id:
