@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 import random
-from pythonProject.Repository_18.web_ui.base_page import BasePage
+from web_ui.base_page import BasePage
 
 
 class ShopPage(BasePage):
