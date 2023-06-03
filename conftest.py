@@ -1,10 +1,10 @@
 import pytest
-from pythonProject.Repository_18.web_ui.data_generator import random_string, random_phone, random_password
+from Repository_18.web_ui.data_generator import random_string, random_phone, random_password
 import time
 
-from pythonProject.Repository_18.page_objects.home_page import HomePage
-from pythonProject.Repository_18.page_objects.admin_page import AdminPage
-from pythonProject.Repository_18.web_ui.driver_factory import DriverFactory
+from Repository_18.page_objects.home_page import HomePage
+from Repository_18.page_objects.admin_page import AdminPage
+from Repository_18.web_ui.driver_factory import DriverFactory
 
 
 @pytest.fixture()
