@@ -1,5 +1,5 @@
 import re
-from pythonProject.Repository_18.web_ui.data_generator import random_string, random_phone, random_password, random_zip
+from web_ui.data_generator import random_string, random_phone, random_password, random_zip
 from selenium.common.exceptions import TimeoutException
 import time
 
