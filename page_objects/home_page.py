@@ -1,8 +1,8 @@
 from selenium.webdriver.common.by import By
 
-from pythonProject.Repository_18.web_ui.base_page import BasePage
-from pythonProject.Repository_18.page_objects.subscription_page import SubscriptionPage
-from pythonProject.Repository_18.page_objects.recipies_page import RecipiesPage
+from web_ui.base_page import BasePage
+from page_objects.subscription_page import SubscriptionPage
+from page_objects.recipies_page import RecipiesPage
 
 class HomePage(BasePage):
     """GET STARTED"""
