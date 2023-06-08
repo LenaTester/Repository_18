@@ -19,8 +19,9 @@ class DriverFactory:
             }
             chrome_options.add_experimental_option('prefs', prefs)
             chrome_options.add_argument("--lang=en-US")
-            """chrome_options.add_argument("--headless")"""
-            driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+            """chrome_options.add_argument("--headless")
+            driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)"""
+            driver = webdriver.Chrome(ChromeDriverManager().install()
 
         elif DriverFactory.FIRE_FOX == driver_id:
             driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
