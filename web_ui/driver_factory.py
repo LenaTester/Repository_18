@@ -19,7 +19,7 @@ class DriverFactory:
             }
             chrome_options.add_experimental_option('prefs', prefs)
             chrome_options.add_argument("--lang=en-US")
-            chrome_options.add_argument("--headless")
+            """chrome_options.add_argument("--headless")"""
             driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
 
         elif DriverFactory.FIRE_FOX == driver_id:
